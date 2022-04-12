@@ -66,6 +66,8 @@ When i resized the main container with the grid, everything inside resized accor
 
 I definitely need to practice more CSS Grid and Flexbox.
 
+Something i was not anticipating was that I would have to upload my file to a Live Site. It felt very complicated, but with a few articles I managed to host my project using gitHub Pages. Also had to tackle an annoying bug where my image would not load on the website, even though it was loading fine for other users and on my local server.
+
 ``` 
 .popup {
     background-color: hsl(0, 0%, 100%);
