@@ -66,6 +66,8 @@ When i resized the main container with the grid, everything inside resized accor
 
 I definitely need to practice more CSS Grid and Flexbox.
 
+Oh, and another huge thing I learnt today was how to set up a Live Site using gitHub Pages. I had no idea I was supposed to write my HTML in the index.html file so I had to transfer all of my code later on, along with another few hiccups that I encountered during that process. Also, my attributions tag is somehow getting covered by the background-color of the overlay, and I don't know how to fix it.
+
 ``` 
 .popup {
     background-color: hsl(0, 0%, 100%);
