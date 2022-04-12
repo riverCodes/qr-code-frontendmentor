@@ -51,3 +51,5 @@ p {
     text-align: center;
     color: hsl(220, 15%, 55%);
 }
+.attribution { font-size: 11px; text-align: center; z-index: 300;}
+.attribution a { color: hsl(228, 45%, 44%); z-index: 300; }
