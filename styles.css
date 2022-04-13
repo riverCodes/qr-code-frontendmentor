@@ -1,6 +1,9 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: Outfit, Arial;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,8 +17,8 @@ p {
 .popup {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
-    width: 250px;
+    row-gap: 21px;
+    max-width: 18rem;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
     padding: 15px;
@@ -29,6 +32,7 @@ p {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
+    width: 100%;
 }
 .main-text {
     font-size: 20px;
