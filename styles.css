@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 body {
     font-family: Outfit, Arial;
@@ -8,11 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     background-color: hsl(212, 45%, 89%);
-}
-p {
-    margin: 0;
 }
 .popup {
     display: flex;
@@ -54,5 +51,7 @@ p {
 footer {
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
 }
