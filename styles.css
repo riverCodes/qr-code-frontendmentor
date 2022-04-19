@@ -7,9 +7,18 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: hsl(212, 45%, 89%);
+    padding: 1rem 1rem 0 1rem;
+}
+body > * {
+    margin-block: 2rem;
+}
+body > main {
+    margin-block: auto;
+}
+body > footer {
+    margin-bottom: 0.5rem;
 }
 .popup {
     display: flex;
@@ -49,9 +58,5 @@ body {
     padding: 0 3px 0 3px;
 }
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
     text-align: center;
 }
